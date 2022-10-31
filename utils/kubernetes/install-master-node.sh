@@ -39,3 +39,6 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 # Deploy a Pod network to the cluster
 kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+
+# Deploy a Nginx Ingress Controller
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.44.0/deploy/static/provider/cloud/deploy.yaml

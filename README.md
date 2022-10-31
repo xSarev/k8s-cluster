@@ -15,6 +15,3 @@ vagrant up
 vagrant ssh <node-name>
 ```
 
-- Notes:
-    - To have a fully operational cluster you should install also a network plugin,
-      choose one from here https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy 
